@@ -1,0 +1,214 @@
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {}
+
+.header .inner {
+    width: 1170px;
+}
+
+.header .inner h1 {
+    align-items: center;
+}
+
+.header .gnb {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header .gnb>ul>li>a {
+    display: block;
+    margin: 0 0 16px 0;
+}
+
+.main_visual {
+    position: relative;
+    height: 640px;
+
+    background: url(../images/jennie.jpg) center top/cover;
+
+}
+
+.main_visual strong {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main_visual p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+.main_visual .tit {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+
+    max-width: 1170px;
+    width: 100%;
+}
+
+.cal {
+    padding: 80px 0;
+    position: relative;
+}
+
+.cal .tit {
+    width: 1170px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.cal .tit h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 24px 0;
+}
+
+.cal .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cal .inner {
+    display: flex;
+    gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.cal .inner>* {
+    flex: 1;
+}
+
+.cal .inner figure {
+    flex: 1;
+}
+
+.cal .inner figure img {
+    margin: 0 0 16px 0;
+}
+
+.cal .inner strong {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+}
+
+.vin {}
+
+.vin .tit h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 48px 0;
+}
+
+.vin .inner {
+    display: flex;
+    gap: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.vin .inner img {
+    width: 100%;
+}
+
+.vin .txt {
+    padding: 80px 0;
+    text-align: center;
+
+    background: url(../images/banner.jpg);
+}
+
+.vin .txt strong {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+}
+
+.vin .txt p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Klein {
+    padding: 80px 0;
+    position: relative;
+}
+
+.Klein .tit {
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+.Klein .tit h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+}
+
+.Klein .tit p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Klein .inner {
+    display: flex;
+    gap: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.Klein .inner a {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+
+    padding: 6px;
+    border-bottom: 1px solid #969696;
+}
+
+.Klein .inner>* {
+    flex: 1;
+}
+
+.Klein .inner figure {
+    flex: 1;
+}
+
+.Klein .inner figure img {
+    margin: 0 0 16px 0;
+}
+
+.last {}
+
+.footer {
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.footer .foo {
+    border-bottom: 1px solid #ddd;
+}
+
+.footer.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.footer .foo .cutomer {
+    height: 200px;
+}
